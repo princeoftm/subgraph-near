@@ -3,7 +3,7 @@ import { gql, request } from 'graphql-request'
 import React from 'react';
 
 const query = gql`{
-  blockEvents(first: 5) {
+  blockEvents(first: 200) {
     id
     number
     hash
